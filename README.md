@@ -1,2 +1,2 @@
 # CNetworksCourse
-This is the repository for some (future) assessments from Computational Networks course.
+This is a repository for some (future) assessments from Computational Networks course.
