@@ -108,8 +108,3 @@ UpgradeLog*.htm
 # SQL Server files
 *.mdf
 *.ldf
-
-# Executables
-*.exe
-*.out
-*.app
