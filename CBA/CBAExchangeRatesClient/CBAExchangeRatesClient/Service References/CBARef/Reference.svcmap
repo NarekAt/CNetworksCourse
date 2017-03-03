@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ReferenceGroup xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" ID="2cd0e428-a606-418c-b089-c2674c89a186" xmlns="urn:schemas-microsoft-com:xml-wcfservicemap">
+  <ClientOptions>
+    <GenerateAsynchronousMethods>false</GenerateAsynchronousMethods>
+    <GenerateTaskBasedAsynchronousMethod>true</GenerateTaskBasedAsynchronousMethod>
+    <EnableDataBinding>true</EnableDataBinding>
+    <ExcludedTypes />
+    <ImportXmlTypes>false</ImportXmlTypes>
+    <GenerateInternalTypes>false</GenerateInternalTypes>
+    <GenerateMessageContracts>false</GenerateMessageContracts>
+    <NamespaceMappings />
+    <CollectionMappings />
+    <GenerateSerializableTypes>true</GenerateSerializableTypes>
+    <Serializer>Auto</Serializer>
+    <UseSerializerForFaults>true</UseSerializerForFaults>
+    <ReferenceAllAssemblies>true</ReferenceAllAssemblies>
+    <ReferencedAssemblies />
+    <ReferencedDataContractTypes />
+    <ServiceContractMappings />
+  </ClientOptions>
+  <MetadataSources>
+    <MetadataSource Address="http://api.cba.am/exchangerates.asmx" Protocol="http" SourceId="1" />
+  </MetadataSources>
+  <Metadata>
+    <MetadataFile FileName="exchangerates.wsdl" MetadataType="Wsdl" ID="ea54e94f-5246-4e07-a8e1-1da0fbe8defc" SourceId="1" SourceUrl="http://api.cba.am/exchangerates.asmx?wsdl" />
+    <MetadataFile FileName="exchangerates.disco" MetadataType="Disco" ID="fb0f18b5-3948-452d-841d-76785ff9015f" SourceId="1" SourceUrl="http://api.cba.am/exchangerates.asmx?disco" />
+    <MetadataFile FileName="ExchangeRatesDS.xsd" MetadataType="Schema" ID="fa397f4a-4067-4383-a799-ebbadd9b44d9" SourceId="1" SourceUrl="http://api.cba.am/exchangerates.asmx?schema=ExchangeRatesDS" />
+  </Metadata>
+  <Extensions>
+    <ExtensionFile FileName="configuration91.svcinfo" Name="configuration91.svcinfo" />
+    <ExtensionFile FileName="configuration.svcinfo" Name="configuration.svcinfo" />
+  </Extensions>
+</ReferenceGroup>
